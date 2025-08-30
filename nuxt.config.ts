@@ -2,7 +2,13 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/icon', '@nuxt/image', '@nuxt/eslint', '@sidebase/nuxt-auth'],
+  modules: [
+    '@nuxt/icon',
+    '@nuxt/image',
+    '@nuxt/eslint',
+    '@sidebase/nuxt-auth',
+    '@nuxt/content',
+  ],
   app: {
     head: {
       title: 'Local events landing',
