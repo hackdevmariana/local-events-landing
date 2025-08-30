@@ -9,18 +9,12 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@sidebase/nuxt-auth',
     '@nuxt/content',
-    '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
     '@vite-pwa/nuxt',
     '@nuxt/ui',
-    '@vueuse/head',
   ],
 
-  // Configuración de Tailwind CSS
-  tailwindcss: {
-    cssPath: '~/assets/css/tailwind.css',
-    configPath: 'tailwind.config.js',
-  },
+
 
   // Configuración de PWA
   pwa: {
